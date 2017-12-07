@@ -17,6 +17,7 @@ int main(void){
     printf("%d", array[7]);
     return 0;
 }
+//gooby PLZ!! :DD
 void hex_to_bin(unsigned char charri, int array[]){
     int temporaryarray[8] = {0};
     for(int i = 0; i<8; i++){

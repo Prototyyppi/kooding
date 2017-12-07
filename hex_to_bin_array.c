@@ -17,24 +17,16 @@ int main(void){
     printf("%d", array[7]);
     return 0;
 }
-//Start over
 void hex_to_bin(unsigned char charri, int array[]){
-    int temporaryarray[8] = {0};
     for(int i = 0; i<8; i++){
         
         if (charri % 2 != 0){
-            temporaryarray[i] = 1;
+            bin_array[i] = 1;
         }
         else{
-            temporaryarray[i] = 0;
+            bin_array[i] = 0;
         }
 
-        charri = charri / 2;
-    }
-    int k = 7;
-    int j = 0;
-    for(j = 0; j<8; j++, k--){
-        array[j] = temporaryarray[k];
-     
+        charri = charri / 2;  
     }
 }

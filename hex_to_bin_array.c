@@ -27,6 +27,7 @@ void hex_to_bin(unsigned char charri, int array[]){
         else{
             temporaryarray[i] = 0;
         }
+        //gabba
         charri = charri / 2;
     }
     int k = 7;

@@ -17,7 +17,7 @@ int main(void){
     printf("%d", array[7]);
     return 0;
 }
-//gooby PLZ!! :DD x2
+//Start over
 void hex_to_bin(unsigned char charri, int array[]){
     int temporaryarray[8] = {0};
     for(int i = 0; i<8; i++){
@@ -28,7 +28,7 @@ void hex_to_bin(unsigned char charri, int array[]){
         else{
             temporaryarray[i] = 0;
         }
-        //gabba
+
         charri = charri / 2;
     }
     int k = 7;

@@ -17,6 +17,7 @@ int main(void){
     printf("%d", array[7]);
     return 0;
 }
+//abc
 void hex_to_bin(unsigned char charri, int array[]){
     for(int i = 0; i<8; i++){
         
